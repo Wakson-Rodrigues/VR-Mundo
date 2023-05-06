@@ -1,0 +1,10 @@
+.novovideo_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formulario {
+  color: aliceblue;
+  padding: 3em;
+}

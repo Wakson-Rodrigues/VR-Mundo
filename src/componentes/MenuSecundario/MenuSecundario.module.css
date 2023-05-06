@@ -1,0 +1,25 @@
+.navegacao {
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background: black;
+  padding: 1em;
+}
+
+.link {
+  align-items: center;
+  width: 100%;
+}
+
+.navegacao img {
+  height: 60px;
+  width: 250px;
+  text-align: center;
+}
+
+@media (max-width: 744px) {
+  .navegacao {
+    height: 72px;
+  }
+}

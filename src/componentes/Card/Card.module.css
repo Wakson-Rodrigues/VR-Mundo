@@ -1,0 +1,116 @@
+.card {
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 3em;
+  background-blend-mode: multiply;
+  position: relative;
+  margin-top: -7em;
+}
+
+h1 {
+  display: block;
+  text-decoration: none;
+  width: 0;
+  font-size: 45px;
+}
+
+.cardvideo h1 {
+  display: none;
+}
+
+h1:first-child {
+  width: 160px;
+  border-bottom: 4px solid #6278f7;
+}
+
+.video {
+  display: flex;
+  height: 185px;
+  width: auto;
+
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+iframe {
+  width: 100%;
+}
+
+.cardvideo iframe {
+  border: 2px solid #6278f7;
+}
+
+.video::-webkit-scrollbar {
+  display: none;
+}
+
+.bloco {
+  padding-bottom: 3em;
+  margin-top: 3em;
+  border: 2px solid rgb(133, 177, 214);
+  background: url(/public/imagens/coral.jpg) no-repeat center / cover;
+}
+
+.bloco h1 {
+  color: rgb(133, 177, 214);
+  width: 180px;
+  margin: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid rgb(133, 177, 214);
+}
+
+.bloco iframe {
+  border: 2px solid rgb(133, 177, 214);
+}
+
+.segundobloco {
+  padding-bottom: 3em;
+  margin-top: 3em;
+  border: 2px solid rgb(226, 10, 10);
+  background: url(/public/imagens/montanha_russa.jpg) no-repeat center / cover;
+}
+
+.segundobloco h1 {
+  color: rgb(226, 10, 10);
+  width: 370px;
+  margin: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid rgb(226, 10, 10);
+}
+
+.segundobloco iframe {
+  border: 2px solid rgb(226, 10, 10);
+}
+
+.terceirobloco {
+  padding-bottom: 3em;
+  margin-top: 3em;
+  border: 2px solid rgb(6, 50, 88);
+  background: url(/public/imagens/paraquedismo.jpeg) no-repeat center / cover;
+}
+
+.terceirobloco h1 {
+  color: rgb(6, 50, 88);
+  width: 200px;
+  margin: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid rgb(6, 50, 88);
+}
+
+.terceirobloco iframe {
+  border: 2px solid rgb(6, 50, 88);
+}
+
+@media (max-width: 744px) {
+  .cardvideo h1 {
+    display: block;
+    position: relative;
+    margin-top: -1em;
+    margin-left: 12px;
+    padding-bottom: 12px;
+  }
+}

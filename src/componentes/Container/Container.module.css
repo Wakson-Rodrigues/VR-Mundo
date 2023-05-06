@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.min-height{
+    min-height: 75%;
+}
+
+.start {
+    justify-content: flex-start;
+    
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* carousel */
